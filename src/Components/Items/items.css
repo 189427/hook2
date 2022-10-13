@@ -1,0 +1,32 @@
+#item-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    border: 2px solid black;
+    min-height: 157.6vh;
+    margin-bottom: 10;
+    margin-top: 10;
+    padding: 2px;
+}
+
+.item-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 2px;
+    padding: 3rem 4rem;
+    /*position: relative;*/
+    gap: 5rem;
+    /*justify-content: center;
+    border: 2px solid black;*/
+}
+
+.card {
+    border: 1px solid black;
+}
+
+/*display: grid;
+border: 1px solid black;
+width: 100px;
+height: 100px;*/
