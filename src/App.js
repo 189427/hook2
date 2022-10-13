@@ -5,6 +5,7 @@ import Signup from "./Components/Signup/Register";
 import Container from "./Components/Container/Container";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import Items from "./Components/Items/Items";
 import ItemCard from "./Components/Items/Items";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Signup" element={<Signup />} />
           <Route path="/items" element={<ItemCard />} />
         </Routes>
+        <Items />
         <Footer />
       </Container>
     </div>
